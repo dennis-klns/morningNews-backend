@@ -82,6 +82,14 @@ CONNECTION_STRING='votre_chaine_de_connexion_mongodb'
 
 Remplacez votre_chaine_de_connexion_mongodb par votre propre URI de connexion MongoDB. Vous pouvez obtenir cette URI depuis votre compte MongoDB Atlas ou votre installation locale de MongoDB.
 
+L'application utilise également une Api afin de fournir les articles au site internet. Vous devez donc également ajouter la clé Api dans le .env
+Vous pouvez trouver une clé à l'adresse suivante : https://newsapi.org/register
+
+et ensuite l'intégrer dans le .env
+
+```sh
+NEWS_API_KEY='votre_cléf_api_'
+```
 
 Démarrer l'application
 
